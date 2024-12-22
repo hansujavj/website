@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        body{
+            background-color: rgb(217, 234, 218);
+        }
+        #navbar{
+    background-color: rgb(255, 255, 255);
+    height: 70px;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 20px;
+    margin: 20px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+        #title{
+            padding: 20px;
+            text-align: center;
+            color: white;
+            background-color: rgb(39, 81, 26);
+            margin: 20px;
+        }
+        #boxsection{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+            gap: 1.5rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .box_title{
+            color: rgb(39, 81, 26);
+        }
+        .box{
+            padding: 10px;
+            display: grid;
+            justify-content: center;
+            justify-items: center;
+            width: 250px;
+            border: solid grey 1px;
+            border-radius: 10px;
+            box-shadow: 0 4px 4px gray ;
+            background-color: white;
+        }
+        .img{
+            height: auto;
+            max-width: 200px;
+            display: block;
+            margin: 0 auto 1rem;
+            padding: 10px;
+            border: solid grey 1px;
+            border-radius: 8px;
+        }
+        .box:hover{
+            transform: scale(1.05);
+            transition-delay: 0.1s;
+        }
+        .buy:hover{
+            transform: scale(1.05);
+            background-color: rgb(94, 129, 99);
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <navbar>
+    <div id="navbar">
+        <img src="logo2.png" alt="logo" height="50px">
+        <a href="index.html">Home</a>
+        <input type="search" placeholder="Search here" class="search">
+        <a href="login.html">Login</a>
+        <a href="signup.html">Sign Up</a>
+        <a href="about.html">About Us</a>
+        <a href="wishlist"><img src="icons8-heart-50.png"</a>
+        <a href="cart"><img src="icons8-cart-50.png"</a>
+    </div>
+</navbar>
+</header>
+    <div id="title">
+        <h1>Men T Shirts</h1>
+    </div>
+
+    <div id="boxsection">
+        <div class="box">
+            <img src="shirt1.jpg" class="img">
+            <h2 class="box_title">Tommy Hilfiger</h2>
+            <h3>Price:Rs 1499</h3>
+            <p>Regular Fit Striped Crew-Neck T-shirt</p>
+            <a href="buy.html"><button class="buy">Buy Now</button></a>
+        </div>
+        <div class="box">
+            <img src="shirt2.jpg" class="img">
+            <h2 class="box_title">Super Dry</h2>
+            <h3>Price:Rs 2199</h3>
+            <p>Vintage Home Run Raglan Relaxed Fit Crew-Neck T-Shirt</p>
+            <a href="buy.html"><button class="buy">Buy Now</button></a>
+                </div>
+        <div class="box">
+            <img src="shirt3.avif" class="img">
+            <h2 class="box_title">GANT</h2>
+            <h3>Price:Rs 1999</h3>
+            <p>GANT Men Grey Striped T-shirt</p>
+            <a href="buy.html"><button class="buy">Buy Now</button></a>
+                </div>
+        <div class="box">
+            <img src="shirt4.avif" class="img">
+            <h2 class="box_title">BreakBounce</h2>
+            <h3>Price:Rs 1699</h3>
+            <p>BREAKBOUNCE Colourblock Crew-neck T-shirt </p>
+            <a href="buy.html"><button class="buy">Buy Now</button></a>     
+           </div>
+
+  
+        <div class="box">
+            <img src="shirt5.webp" class="img">
+            <h2 class="box_title">SuperDry</h2>
+            <h3>Price:Rs 1599</h3>
+            <p>Typographic Print Slim Fit Crew-Neck T-shirt</p>
+            <a href="buy.html"><button class="buy">Buy Now</button></a>
+                </div>
+        <div class="box">
+            <img src="shirt6.avif" class="img">
+            <h2 class="box_title">Puma</h2>
+            <h3>Price:Rs 899</h3>
+            <p>GANT Men Grey Striped T-shirt</p>
+            <a href="buy.html"><button class="buy">Buy Now</button></a>
+                </div>
+        <div class="box">
+            <img src="shirt7.avif" class="img">
+            <h2 class="box_title">Allen Solly</h2>
+            <h3>Price:Rs 1399</h3>
+            <p>Vintage Home Run Raglan Relaxed Fit Crew-Neck T-Shirt</p>
+            <a href="buy.html"><button class="buy">Buy Now</button></a>
+                </div>
+        <div class="box">
+            <img src="shirt8.avif" class="img">
+            <h2 class="box_title">Arrow</h2>
+            <h3>Price:Rs 1299</h3>
+            <p>BREAKBOUNCE Colourblock Crew-neck T-shirt</p>
+            <a href="buy.html"><button class="buy">Buy Now</button></a>       
+            </div>
+
+    </div>
+</body>
+</html>

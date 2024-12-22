@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url("Screenshot\ \(311\).png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: rgb(0, 0, 0);
+            font-size: 20px;
+        }
+        .container{
+            height: 550px;
+            width: 400px;
+            margin: auto;
+            display: flex;
+            position: relative;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin-top: 100px;
+            border: solid gray 1px;
+            backdrop-filter: blur(50px);
+        }
+        #box{
+            position: relative;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        input{
+            width: 100%;
+            outline: none;
+            padding: 10px 20px;
+            border-radius: 30px;
+        }
+        #signin{
+            display: flex;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <form action="index.html">
+        <div id="box">
+            <h1>SIGN UP</h1>
+            User Name:<input type="text" required placeholder="Name"><br>
+            E-Mail: <input type="email" required placeholder="E-mail"><br>
+            Password: <input type="password" required placeholder="password"><br> 
+            <div id="signin"><p> Already have an account? </p><a href="login.html">Log In </a></div>
+            <input type="submit" value="SIGN UP" ><br>
+        </div>
+    </form>
+</div>
+</body>
+</html>

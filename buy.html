@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(111, 136, 158);
+            color: rgb(0, 0, 0);
+        }
+        .container{
+            height: auto;
+            width: 400px;
+            margin: auto;
+            display: flex;
+            position: relative;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin-top: 100px;
+            border: solid rgb(59, 9, 9) 1px;
+            backdrop-filter: blur(50px);
+            background-color: rgb(159, 170, 172); 
+        border-radius: 20px;       }
+        #box{
+            position: relative;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            background-size: cover;
+        }
+        input{
+            width: 100%;
+            outline: none;
+            padding: 10px 20px;
+            border-radius: 30px;
+        }
+        select{
+            width: 100%;
+            outline: none;
+            padding: 10px 20px;
+            border-radius: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <form action="paydone.html">
+            <div id="box">
+                <h1>PAYMENT DETAILS</h1>
+                Card Type:
+                <select name="card type" id="card">
+                    <option value="">Select a Card</option>
+                    <option value="Master Card">Master Card</option>
+                    <option value="Debit Card">Debit Card</option>
+                    <option value="Visa">Visa</option>
+                    <option value="Rupay">Rupay</option>
+                </select>
+                Card Number: <input type="number" required placeholder="Card Number"><br>
+                Expiry Date: <input type="date" required placeholder="Expiry date"><br> 
+                CVV: <input type="number" maxlength="3" required placeholder="CVV">
+                Amount: <input type="number" required placeholder="Amount">
+                <input type="submit" value="Pay Now" style="margin: auto;"><br>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url("Screenshot\ \(311\).png");
+            background-size: cover;
+            color: rgb(0, 0, 0);
+        }
+
+.container{
+            height: 500px;
+            width: 400px;
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 100px;
+            border: solid gray 1px;
+            backdrop-filter: blur(30px);
+
+        }
+       
+        #box{
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        button{
+            margin: auto;
+        }
+
+        input{
+            padding: 10px 2px;
+            border-radius: 30px;
+            width: 100%;
+        }
+        a{
+            color: rgb(29, 54, 77);
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <form action="index.html">
+            <div id="box">
+                <h1>Sign in</h1>
+                E-mail
+                <br>
+                <input type="email" class="ip" placeholder="Email" required><br>
+                Password 
+                <br><input type="password" class="ip" placeholder="password" required><br>
+                <p>Don't have an account? <a href="signup.html">Sign Up</a></p>
+                <input type="submit" value="Sign In" class="ip">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
